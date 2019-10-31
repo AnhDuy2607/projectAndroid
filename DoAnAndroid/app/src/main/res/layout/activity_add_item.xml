@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+        <EditText
+            android:id="@+id/cmnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CMND"/>
+        <EditText
+            android:id="@+id/gplx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="GPLX"/>
+        <EditText
+            android:id="@+id/number_Of_Mistake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="So lan vi pham"/>
+        <EditText
+            android:id="@+id/mistake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ten loi vi pham"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/save"/>
+        <Button
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/btnQuitAddToMain"/>
+    </LinearLayout>
+</LinearLayout>

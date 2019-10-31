@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+        <EditText
+            android:id="@+id/seach_gplx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="GPLX"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tim kiem"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/search"/>
+    </LinearLayout>
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView android:text="CMND:"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/showCMND"
+                android:text=" ...:"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="GPLX:"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/showGPLX"
+                android:text=" ...:"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Số Lần:"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/showSoLan"
+                android:text=" ...:"
+                android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nội Dung:"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/showNoiDung"
+                android:text=" ...:"
+                android:textSize="20dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

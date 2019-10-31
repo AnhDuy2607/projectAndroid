@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+        <EditText
+            android:id="@+id/seach_gplx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="GPLX"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tim kiem"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/btnSearch"/>
+        <Button
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoát"
+            android:background="#3f76ff"
+            android:textColor="#fff"
+            android:id="@+id/btnQuitSearchToMain"/>
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="25dp"
+        android:id="@+id/lvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
